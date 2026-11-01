@@ -1,6 +1,7 @@
 package net.Ttimy.C_Neqatics;
 
 import net.Ttimy.C_Neqatics.item.ModItems;
+import net.Ttimy.C_Neqatics.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -53,6 +54,9 @@ public class CNequatics {
             event.accept(ModItems.RAW_NEQUATIUM);
             event.accept(ModItems.NEQUATIUM_INGOT);
             event.accept(ModItems.NEQUATIUM_NUGGET);
+            event.accept(ModBlocks.NEQUATIUM_BLOCK);
+            event.accept(ModBlocks.RAW_NEQUATIUM_BLOCK);
+
 
         }
 

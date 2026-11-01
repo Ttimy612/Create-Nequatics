@@ -1,5 +1,6 @@
 {
   "item.cnequatics.raw_nequatium": "Raw Nequatium",
   "item.cnequatics.nequatium_ingot": "Nequatium Ingot",
-  "item.cnequatics.nequatium_nugget": "Nequatium Nugget"
+  "item.cnequatics.nequatium_nugget": "Nequatium Nugget",
+  "block.cnequatics.nequatium_block": "Block of Nequatium"
 }

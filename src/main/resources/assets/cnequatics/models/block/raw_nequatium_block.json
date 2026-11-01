@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "cnequatics:block/raw_nequatium_block"
+  }
+}
