@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package net.Ttimy.C_Neqatics;
 
 import java.util.List;
 import java.util.Set;
