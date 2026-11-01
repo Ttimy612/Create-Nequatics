@@ -12,6 +12,11 @@ public class ModItems {
     public static final DeferredItem<Item> RAW_NEQUATIUM = ITEMS.register("raw_nequatium",
             ()-> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> NEQUATIUM_INGOT = ITEMS.register("nequatium_ingot",
+            ()-> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> NEQUATIUM_NUGGET = ITEMS.register("nequatium_nugget",
+            ()-> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventbus) {
         ITEMS.register(eventbus);

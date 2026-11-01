@@ -1,0 +1,6 @@
+{
+  "perent": "minecraft;item/generated",
+  "textures": {
+    "layer0": "cnequatics:item/nequatium_nugget"
+  }
+}

@@ -51,6 +51,9 @@ public class CNequatics {
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RAW_NEQUATIUM);
+            event.accept(ModItems.NEQUATIUM_INGOT);
+            event.accept(ModItems.NEQUATIUM_NUGGET);
+
         }
 
     }
