@@ -1,5 +1,7 @@
 package net.Ttimy.C_Neqatics;
 
+import net.Ttimy.C_Neqatics.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -17,7 +19,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(CNequatics.MOD_ID)
 public class CNequatics {
-    public static final String MOD_ID = "create_nequatics";
+    public static final String MOD_ID = "cnequatics";
     public static final Logger LOGGER = LogUtils.getLogger();
 
 
@@ -32,6 +34,8 @@ public class CNequatics {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -44,6 +48,10 @@ public class CNequatics {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.RAW_NEQUATIUM);
+        }
 
     }
 
