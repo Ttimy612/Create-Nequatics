@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cnequatics:nequatium_ingot",
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "cnequatics:nequatium_nugget"
+  }
+}

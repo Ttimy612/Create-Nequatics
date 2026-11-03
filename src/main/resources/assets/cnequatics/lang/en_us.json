@@ -2,5 +2,37 @@
   "item.cnequatics.raw_nequatium": "Raw Nequatium",
   "item.cnequatics.nequatium_ingot": "Nequatium Ingot",
   "item.cnequatics.nequatium_nugget": "Nequatium Nugget",
-  "block.cnequatics.nequatium_block": "Block of Nequatium"
+  "item.cnequatics.nequatium_dust": "Nequatium Dust",
+  "item.cnequatics.raw_nequatium_dust": "Raw Nequatium Dust",
+  "item.cnequatics.nequatium_crystel": "Nequatium Crystal",
+  "item.cnequatics.raw_nequatium_crystel": "Raw Nequatium Crystal",
+  "item.cnequatics.atuned_nequatium_ingot": "Atuned Nequatium Ingot",
+  "item.cnequatics.atuned_nequatium_nugget": "Atuned Nequatium Nugget",
+  "item.cnequatics.atuned_nequatium_sheet": "Atuned Nequatium Sheet",
+  "item.cnequatics.atuned_nequatium_rod": "Atuned Nequatium Rod",
+  "item.cnequatics.atuned_nequatic_pump": "Atuned Nequatic Pump",
+  "item.cnequatics.nequatic_pump": "Nequatic Pump",
+  "item.cnequatics.nequatic_water_cell": "Nequatic Water Cell",
+  "item.cnequatics.atuned_nequatic_water_cell": "Atuned Nequatic Water Cell",
+  "item.cnequatics.heavy_water_bucket": "Heavy Water Bucket",
+  "item.cnequatics.nether_star_dust": "Nether Star Dust",
+  "item.cnequatics.nether_star_compound": "Nether Star Compound",
+  "item.cnequatics.diamond_dust": "Diamond Dust",
+  "item.cnequatics.netherite_dust": "Netherite Dust",
+  "item.cnequatics.nequatium_sheet": "Nequatium Sheet",
+  "item.cnequatics.nequatium_rod": "Nequatium Rod",
+  "item.cnequatics.atuned_nequatium_dust": "Atuned Nequatium Dust",
+
+
+
+  "block.cnequatics.nequatium_block": "Block of Nequatium",
+  "block.cnequatics.raw_nequatium_block": "Block of Raw Nequatium",
+  "block.cnequatics.nequatic_mechine_core": "Nequatic Mechine Core",
+  "block.cnequatics.nequatic_mechine_casing": "Nequatic Mechine Casing",
+  "block.cnequatics.nequatium_casing": "Nequatium Casing",
+  "block.cnequatics.atuned_nequatium_block": "Block of Atuned Nequatium",
+
+
+  "creativetab.cnequatics.nequatic_items": "Nequatics Items",
+  "creativetab.cnequatics.nequatic_blocks": "Nequatics Blocks"
 }

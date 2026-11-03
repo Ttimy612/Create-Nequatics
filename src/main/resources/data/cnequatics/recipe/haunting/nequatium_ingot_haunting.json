@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "cnequatics:raw_nequatium_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "cnequatics:nequatium_ingot"
+    }
+  ]
+}

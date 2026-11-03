@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "cnequatics:nether_star_compound"
+    },
+    {
+      "item": "cnequatics:nequatium_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 5,
+      "id": "cnequatics:atuned_nequatium_dust"
+    }
+  ]
+}

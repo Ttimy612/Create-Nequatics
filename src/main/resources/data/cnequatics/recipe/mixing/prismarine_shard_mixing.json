@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:prismarine_crystal"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "minecraft:prismarine_shard"
+    }
+  ]
+}
+
+

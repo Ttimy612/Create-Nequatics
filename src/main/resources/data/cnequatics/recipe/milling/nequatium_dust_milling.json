@@ -1,0 +1,20 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "cnequatics:nequatium_ingot"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "count": 1,
+      "id": "cnequatics:nequatium_dust"
+    },
+    {
+      "chance": 0.5,
+      "count": 2,
+      "id": "cnequatics:nequatium_dust"
+    }
+  ]
+}

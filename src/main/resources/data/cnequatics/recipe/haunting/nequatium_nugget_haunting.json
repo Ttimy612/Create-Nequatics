@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "cnequatics:raw_nequatium"
+    }
+  ],
+  "results": [
+    {
+      "id": "cnequatics:nequatium_nugget"
+    }
+  ]
+}
