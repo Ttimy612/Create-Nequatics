@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "cnequatics:incomplete_nequatic_mechine_core"
+    },
+    {
+      "item": "cnequatics:nequatium_rod"
+    }
+  ],
+  "results": [
+    {
+      "id": "cnequatics:nequatic_mechine_core"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "cnequatics:nequatium_casing"
+    },
+    {
+      "item": "cnequatics:nequatium_sheet"
+    }
+  ],
+  "results": [
+    {
+      "id": "cnequatics:incomplete_nequatic_mechine_core"
+    }
+  ]
+}

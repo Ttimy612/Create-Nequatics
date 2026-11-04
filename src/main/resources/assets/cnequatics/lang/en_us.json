@@ -30,8 +30,8 @@
 
   "block.cnequatics.nequatium_block": "Block of Nequatium",
   "block.cnequatics.raw_nequatium_block": "Block of Raw Nequatium",
-  "block.cnequatics.nequatic_mechine_core": "Nequatic Mechine Core",
-  "block.cnequatics.nequatic_mechine_casing": "Nequatic Mechine Casing",
+  "block.cnequatics.nequatic_mechine_core": "Nequatic Machine Core",
+  "block.cnequatics.nequatic_mechine_casing": "Nequatic Machine Casing",
   "block.cnequatics.nequatium_casing": "Nequatium Casing",
   "block.cnequatics.atuned_nequatium_block": "Block of Atuned Nequatium",
   "block.cnequatics.atuned_rolled_nequatium_sheet": "Atuned Rolled Nequatium Sheet",
@@ -40,6 +40,7 @@
   "block.cnequatics.nequatium_rod_bundle": "Nequatium Rod Bundle",
   "block.cnequatics.rod_mill": "Rod Mill",
   "block.cnequatics.nequatic_wave_generator": "Nequatic Wave Generator",
+  "block.cnequatics.incomplete_nequatic_mechine_core": "Incomplete Nequatic Machine Core",
 
 
   "creativetab.cnequatics.nequatic_items": "Nequatics Items",

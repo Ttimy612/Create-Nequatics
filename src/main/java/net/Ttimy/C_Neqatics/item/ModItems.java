@@ -128,8 +128,6 @@ public class ModItems {
     public static final DeferredItem<Item> NEQUATIUM_HALF_INGOT = ITEMS.register("nequatium_half_ingot",
             ()-> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> INCOMPLETE_NEQUATIC_MECHINE_CORE = ITEMS.register("incomplete_nequatic_mechine_core",
-            ()-> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> ATUNED_NEQUATIUM_HALF_INGOT = ITEMS.register("atuned_nequatium_half_ingot",
             () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)) {

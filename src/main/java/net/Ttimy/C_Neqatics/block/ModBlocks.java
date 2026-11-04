@@ -23,6 +23,12 @@ public static final DeferredBlock<Block> NEQUATIUM_BLOCK = registerBlock("nequat
                 .requiresCorrectToolForDrops()
                 .sound(SoundType.METAL)));
 
+    public static final DeferredBlock<Block> INCOMPLETE_NEQUATIC_MECHINE_CORE = registerBlock("incomplete_nequatic_mechine_core",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)));
+
 public static final DeferredBlock<Block> RAW_NEQUATIUM_BLOCK = registerBlock("raw_nequatium_block",
         ()-> new Block(BlockBehaviour.Properties.of()
                 .strength(4f)
