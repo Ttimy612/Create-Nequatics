@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> NEQUATICS_ITEMS_TAB = CREATIVE_MODE_TAB.register("nequatics_items_tab",
             () -> CreativeModeTab.builder()
+                    .withTabsAfter(ResourceKey.create(Registries.CREATIVE_MODE_TAB, ResourceLocation.fromNamespaceAndPath(CNequatics.MOD_ID, "nequatics_blocks_tab")))
                     .icon(() -> new ItemStack(ModItems.NEQUATIUM_INGOT.get()))
                     .title(Component.translatable("creativetab.cnequatics.nequatic_items"))
                     .displayItems((parameters, output) -> {
@@ -45,13 +46,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DIAMOND_DUST.get());
                         output.accept(ModItems.NEQUATIUM_HALF_INGOT.get());
                         output.accept(ModItems.ATUNED_NEQUATIUM_HALF_INGOT.get());
+                        output.accept(ModItems.ATUNED_NEQUATIUM_SHEET.get());
+                        output.accept(ModItems.ATUNED_NEQUATIUM_ROD.get());
                     })
                     .build());
 
     public static final Supplier<CreativeModeTab> NEQUATICS_BLOCKS_TAB = CREATIVE_MODE_TAB.register("nequatics_blocks_tab",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModBlocks.NEQUATIC_MECHINE_CORE.get()))
-                    .withTabsAfter(ResourceKey.create(Registries.CREATIVE_MODE_TAB, ResourceLocation.fromNamespaceAndPath(CNequatics.MOD_ID, "nequatics_items_tab")))
+
                     .title(Component.translatable("creativetab.cnequatics.nequatic_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.RAW_NEQUATIUM_BLOCK.get());
@@ -65,6 +68,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ATUNED_ROLLED_NEQUATIUM_SHEET.get());
                         output.accept(ModBlocks.ATUNED_NEQUATIUM_BLOCK.get());
                         output.accept(ModBlocks.ROD_MILL.get());
+                        output.accept(ModBlocks.NEQUATIC_WAVE_GENERATOR.get());
 
 
 

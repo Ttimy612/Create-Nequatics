@@ -2,6 +2,8 @@ package net.Ttimy.C_Neqatics.item;
 
 import net.Ttimy.C_Neqatics.CNequatics;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -46,31 +48,76 @@ public class ModItems {
             ()-> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> ATUNED_NEQUATIUM_INGOT = ITEMS.register("atuned_nequatium_ingot",
-            ()-> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)) {
+                @Override
+                public boolean isFoil(ItemStack stack) {
+                    return true;
+                }
+            });
 
     public static final DeferredItem<Item> ATUNED_NEQUATIUM_NUGGET = ITEMS.register("atuned_nequatium_nugget",
-            ()-> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)) {
+                @Override
+                public boolean isFoil(ItemStack stack) {
+                    return true;
+                }
+            });
 
-    public static final DeferredItem<Item> ATUNED_NEQUATIUM_DUST = ITEMS.register("atuned_nequatium_dust",
-            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item>ATUNED_NEQUATIUM_DUST = ITEMS.register("atuned_nequatium_dust",
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)) {
+                @Override
+                public boolean isFoil(ItemStack stack) {
+                    return true;
+                }
+            });
 
     public static final DeferredItem<Item> NETHER_STAR_DUST = ITEMS.register("nether_star_dust",
-            ()-> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)) {
+                @Override
+                public boolean isFoil(ItemStack stack) {
+                    return true;
+                }
+            });
 
     public static final DeferredItem<Item> NETHER_STAR_COMPOUND = ITEMS.register("nether_star_compound",
-            ()-> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)) {
+                @Override
+                public boolean isFoil(ItemStack stack) {
+                    return true;
+                }
+            });
 
     public static final DeferredItem<Item> ATUNED_NEQUATIUM_SHEET = ITEMS.register("atuned_nequatium_sheet",
-            ()-> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)) {
+                @Override
+                public boolean isFoil(ItemStack stack) {
+                    return true;
+                }
+            });
 
-    public static final DeferredItem<Item> ATUNED_NEQUATIUM_RED = ITEMS.register("atuned_nequatium_rod",
-            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ATUNED_NEQUATIUM_ROD = ITEMS.register("atuned_nequatium_rod",
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)) {
+                @Override
+                public boolean isFoil(ItemStack stack) {
+                    return true;
+                }
+            });
 
     public static final DeferredItem<Item> ATUNED_NEQUATIC_WATER_CELL = ITEMS.register("atuned_nequatic_water_cell",
-            ()-> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)) {
+                @Override
+                public boolean isFoil(ItemStack stack) {
+                    return true;
+                }
+            });
 
     public static final DeferredItem<Item> ATUNED_NEQUATIC_PUMP = ITEMS.register("atuned_nequatic_pump",
-            ()-> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)) {
+                @Override
+                public boolean isFoil(ItemStack stack) {
+                    return true;
+                }
+            });
 
     public static final DeferredItem<Item> NETHERITE_DUST = ITEMS.register("netherite_dust",
             ()-> new Item(new Item.Properties()));
@@ -81,8 +128,16 @@ public class ModItems {
     public static final DeferredItem<Item> NEQUATIUM_HALF_INGOT = ITEMS.register("nequatium_half_ingot",
             ()-> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> ATUNED_NEQUATIUM_HALF_INGOT = ITEMS.register("atuned_nequatium_half_ingot",
+    public static final DeferredItem<Item> INCOMPLETE_NEQUATIC_MECHINE_CORE = ITEMS.register("incomplete_nequatic_mechine_core",
             ()-> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> ATUNED_NEQUATIUM_HALF_INGOT = ITEMS.register("atuned_nequatium_half_ingot",
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)) {
+                @Override
+                public boolean isFoil(ItemStack stack) {
+                    return true;
+                }
+            });
 
     public static void register(IEventBus eventbus) {
         ITEMS.register(eventbus);

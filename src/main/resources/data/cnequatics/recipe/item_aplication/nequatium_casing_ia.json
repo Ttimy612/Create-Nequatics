@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "c:stripped_logs"
+    },
+    {
+      "item": "cnequatics:nequatium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "cnequatics:nequatium_casing"
+    }
+  ]
+}

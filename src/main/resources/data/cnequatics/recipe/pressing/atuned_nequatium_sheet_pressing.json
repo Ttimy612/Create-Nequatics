@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cnequatics:atuned_nequatium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "cnequatics:atuned_nequatium_sheet"
+    }
+  ]
+}

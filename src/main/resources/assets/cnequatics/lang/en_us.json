@@ -22,6 +22,9 @@
   "item.cnequatics.nequatium_sheet": "Nequatium Sheet",
   "item.cnequatics.nequatium_rod": "Nequatium Rod",
   "item.cnequatics.atuned_nequatium_dust": "Atuned Nequatium Dust",
+  "item.cnequatics.atuned_nequatium_half_ingot": "Atuned Nequatium Half Ingot",
+  "item.cnequatics.nequatium_half_ingot": "Nequatium Half Ingot",
+
 
 
 
@@ -31,6 +34,12 @@
   "block.cnequatics.nequatic_mechine_casing": "Nequatic Mechine Casing",
   "block.cnequatics.nequatium_casing": "Nequatium Casing",
   "block.cnequatics.atuned_nequatium_block": "Block of Atuned Nequatium",
+  "block.cnequatics.atuned_rolled_nequatium_sheet": "Atuned Rolled Nequatium Sheet",
+  "block.cnequatics.rolled_nequatium_sheet": "Rolled Nequatium Sheet",
+  "block.cnequatics.atuned_nequatium_rod_bundle": "Atuned Nequatium Rod Bundle",
+  "block.cnequatics.nequatium_rod_bundle": "Nequatium Rod Bundle",
+  "block.cnequatics.rod_mill": "Rod Mill",
+  "block.cnequatics.nequatic_wave_generator": "Nequatic Wave Generator",
 
 
   "creativetab.cnequatics.nequatic_items": "Nequatics Items",
