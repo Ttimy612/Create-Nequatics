@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cnequatics:nequatic_water_cell"
+    },
+    "B": {
+      "item": "create:fluid_pipe"
+    },
+    "C": {
+      "item": "create:mechanical_pump"
+    }
+  },
+  "pattern": [
+    " B",
+    "CA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cnequatics:nequatic_pump"
+
+  }
+
+
+}

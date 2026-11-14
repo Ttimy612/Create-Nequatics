@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "cnequatics:atuned_nequatium_block",
+    "cnequatics:rolled_atuned_nequatium_sheet",
+    "cnequatics:atuned_nequatium_rod_bundle"
+  ]
+}

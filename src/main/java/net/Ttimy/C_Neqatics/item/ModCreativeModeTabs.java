@@ -67,7 +67,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ATUNED_NEQUATIUM_ROD_BUNDLE.get());
                         output.accept(ModBlocks.ATUNED_ROLLED_NEQUATIUM_SHEET.get());
                         output.accept(ModBlocks.ATUNED_NEQUATIUM_BLOCK.get());
-                        output.accept(ModBlocks.ROD_MILL.get());
                         output.accept(ModBlocks.NEQUATIC_WAVE_GENERATOR.get());
 
 

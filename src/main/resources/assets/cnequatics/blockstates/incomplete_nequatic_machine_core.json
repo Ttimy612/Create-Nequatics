@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cnequatics:block/incomplete_machine_core"
+    }
+  }
+}

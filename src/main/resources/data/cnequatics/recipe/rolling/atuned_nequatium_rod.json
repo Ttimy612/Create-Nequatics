@@ -1,0 +1,14 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "item": "cnequatics:atuned_nequatium_half_ingot"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "cnequatics:atuned_nequatium_rod"
+    }
+  ]
+}

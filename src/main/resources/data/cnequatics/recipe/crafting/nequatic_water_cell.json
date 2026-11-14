@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cnequatics:nequatium_sheet"
+    },
+    "B": {
+      "item": "cnequatics:nequatium_rod"
+    },
+    "C": {
+      "item": "cnequatics:nequatium_half_ingot"
+    },
+    "D": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "CDC",
+    "BAB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cnequatics:nequatic_water_cell"
+
+  }
+
+
+}

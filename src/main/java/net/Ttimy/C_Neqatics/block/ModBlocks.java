@@ -90,12 +90,6 @@ public static final DeferredBlock<Block> RAW_NEQUATIUM_BLOCK = registerBlock("ra
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
 
-    public static final DeferredBlock<Block> ROD_MILL = registerBlock("rod_mill",
-            ()-> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)));
-
     private static <T extends Block>DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

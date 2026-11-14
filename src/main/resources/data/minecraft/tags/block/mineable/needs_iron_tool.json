@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "cnequatics:nequatium_block",
+    "cnequatics:nequatium_casing",
+    "cnequatics:nequatic_machine_core",
+    "cnequatics:nequatic_wave_generator",
+    "cnequatics:rolled_nequatium_sheet",
+    "cnequatics:nequatium_rod_bundle",
+    "cnequatics:nequatic_mechine_casing",
+    "cnequatics:incomplete_nequatic_machine_core"
+  ]
+}
