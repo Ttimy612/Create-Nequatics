@@ -86,6 +86,7 @@ public static final DeferredBlock<Block> RAW_NEQUATIUM_BLOCK = registerBlock("ra
     public static final DeferredBlock<Block> ATUNED_NEQUATIUM_BLOCK = registerBlock("atuned_nequatium_block",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f)
+                    .lightLevel(state -> 15)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
 

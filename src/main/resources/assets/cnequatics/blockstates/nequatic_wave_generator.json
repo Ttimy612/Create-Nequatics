@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cnequatics:block/nequatic_wave_generator"
+    }
+  }
+}
